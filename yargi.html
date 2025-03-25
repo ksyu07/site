@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приговор - описание сериала</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1d3557, #457b9d);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            background-color: #1d3557;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            padding: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #a8dadc;
+        }
+        
+        .serial-header {
+            display: flex;
+            margin: 2rem 0;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .serial-poster {
+            flex: 0 0 300px;
+        }
+        
+        .serial-poster img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .serial-info {
+            flex: 1;
+        }
+        
+        .serial-title {
+            color: #1d3557;
+            margin-bottom: 1rem;
+        }
+        
+        .serial-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .serial-meta span {
+            background: #a8dadc;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #1d3557;
+        }
+        
+        .serial-description {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        
+        .serial-details {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .detail-row {
+            display: flex;
+            margin-bottom: 1rem;
+        }
+        
+        .detail-label {
+            flex: 0 0 200px;
+            font-weight: bold;
+            color: #1d3557;
+        }
+        
+        .detail-value {
+            flex: 1;
+        }
+        
+        .season {
+            margin-bottom: 2rem;
+        }
+        
+        .season-title {
+            color: #e63946;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e63946;
+        }
+        
+        footer {
+            background-color: #1d3557;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .serial-header {
+                flex-direction: column;
+            }
+            
+            .serial-poster {
+                flex: 0 0 auto;
+                width: 100%;
+                max-width: 300px;
+                margin-bottom: 1rem;
+            }
+            
+            .detail-row {
+                flex-direction: column;
+            }
+            
+            .detail-label {
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Приговор (Yargı)</h1>
+            <p>История любви прокурора и адвоката, которая разворачивается во время судебного процесса</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="yalicapkini.html">Зимородок</a></li>
+            <li><a href="yargi.html">Приговор</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <section class="serial-header">
+            <div class="serial-poster">
+                <img src="prig2.jpg" alt="Постер Приговор">
+            </div>
+            <div class="serial-info">
+                <h2 class="serial-title">Приговор</h2>
+                <div class="serial-meta">
+                    <span>Триллер</span>
+                    <span>Драма</span>
+                    <span>Криминал</span>
+                </div>
+                <div class="serial-rating">
+                    <strong>Рейтинг:</strong> 9.8/10
+                </div>
+                <p class="serial-description">
+                    История любви прокурора Ильгаза и адвоката Чагры, которая разворачивается во время судебного процесса. Ильгаз — принципиальный прокурор, который верит в справедливость. Чагра — успешный адвокат, защищающий подозреваемого в убийстве сестры Ильгаза. Их профессиональные пути пересекаются в зале суда, где они становятся противниками. Но по мере развития событий между ними возникает сильное чувство, которое осложняется расследованием убийства и семейными тайнами.
+                </p>
+            </div>
+        </section>
+        
+        <section class="serial-details">
+            <h3>Подробная информация</h3>
+            <div class="detail-row">
+                <div class="detail-label">Год выпуска:</div>
+                <div class="detail-value">2021</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Страна:</div>
+                <div class="detail-value">Турция</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Режиссер:</div>
+                <div class="detail-value">Али Билгин</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">В главных ролях:</div>
+                <div class="detail-value">Каан Урганджиоглу, Пынар Дениз, Хюлья Дарджан</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Количество сезонов:</div>
+                <div class="detail-value">3</div>
+            </div>
+        </section>
+        
+
+        
+        <section class="serial-details">
+            <h3>Где посмотреть</h3>
+            <p>Сериал доступен на платформах:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>ivi (в России)</li>
+                <li>Start (в России)</li>
+                <li>YouTube (официальный канал)</li>
+            </ul>
+        </section>
+    </main>
+    
+    
+</body>
+</html>
